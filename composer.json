@@ -18,5 +18,7 @@
     "psr-4": {
       "suedlicht\\suedfrontkatmodul\\": "../../../source/modules/suedlicht/suedfrontkatmodul"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
 }
