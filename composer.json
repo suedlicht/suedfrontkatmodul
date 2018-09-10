@@ -1,0 +1,22 @@
+{
+  "name": "suedlicht/suedfrontkatmodul",
+  "description": "Kategorie Auswahl",
+  "type": "oxideshop-module",
+  "keywords": ["oxid","katmodul","admin"],
+  "homepage": "https://suedlicht.com",
+  "version": "1.1.0",
+  "license": ["GNU"],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "suedlicht/suedfrontkatmodul"
+    }
+  },
+  "require": {
+        "php": ">=5.6"
+    },   
+  "autoload": {
+    "psr-4": {
+      "suedlicht\\suedfrontkatmodul\\": "../../../source/modules/suedlicht/suedfrontkatmodul"
+    }
+  }
+}
