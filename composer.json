@@ -4,15 +4,23 @@
   "type": "oxideshop-module",
   "keywords": ["oxid","katmodul","admin"],
   "homepage": "https://suedlicht.com",
-  "version": "1.1.0",
-  "license": ["GNU"],
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "suedlicht",
+      "email": "info@suedlicht.com",
+      "homepage": "https://www.suedlicht.com/",
+      "role": "Developer"
+    }
+  ],
+    
   "extra": {
     "oxideshop": {
       "target-directory": "suedlicht/suedfrontkatmodul"
     }
   },
   "require": {
-        "php": ">=5.6"
+        "php": ">=7.0"
     },   
   "autoload": {
     "psr-4": {
