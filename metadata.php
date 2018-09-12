@@ -7,7 +7,7 @@ $aModule = [
     'title'        => 'Produkt Kategorie Auswahl',
     'description'  => ['de' => 'Modul für Kategorie Hersteller Baujahr.','en' => 'Module for Categoies Manufactors.'],
     'thumbnail'    => '',
-    'version'      => '1.2',
+    'version'      => '1.3',
     'author'       => 'Suedlicht',
     'email'        => 'info@suedlicht.com',
     'extend'       => [
