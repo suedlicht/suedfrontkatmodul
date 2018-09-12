@@ -13,20 +13,21 @@
       "role": "Developer"
     }
   ],
-    
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+   
+  "autoload": {
+    "psr-4": {
+      "suedlicht\\suedfrontkatmodul\\": "../../../source/modules/suedlicht/suedfrontkatmodul"
+    }
+  },
   "extra": {
     "oxideshop": {
       "target-directory": "suedlicht/suedfrontkatmodul"
     }
   },
   "require": {
-        "php": ">=7.0"
-    },   
-  "autoload": {
-    "psr-4": {
-      "suedlicht\\suedfrontkatmodul\\": "../../../source/modules/suedlicht/suedfrontkatmodul"
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "~6.0"
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
 }
