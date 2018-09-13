@@ -5,6 +5,12 @@
   "keywords": ["oxid","katmodul","admin"],
   "homepage": "https://suedlicht.com",
   "license": "GNU",
+  "repositories": {
+        "suedlicht/suedfrontkatmodul": {
+            "type": "vcs",
+            "url": "https://github.com/suedlicht/suedfrontkatmodul.git"
+        },
+    },
   "authors": [
     {
       "name": "suedlicht",
