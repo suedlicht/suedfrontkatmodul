@@ -18,10 +18,7 @@
       "homepage": "https://www.suedlicht.com/",
       "role": "Developer"
     }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-   
+  ], 
   "autoload": {
     "psr-4": {
       "suedlicht\\suedfrontkatmodul\\": "../../../source/modules/suedlicht/suedfrontkatmodul"
@@ -31,8 +28,5 @@
     "oxideshop": {
       "target-directory": "suedlicht/suedfrontkatmodul"
     }
-  },
-  "require": {
-    "php": ">=7.0"
-    }
+  }
 }
