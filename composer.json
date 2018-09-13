@@ -9,7 +9,7 @@
         "suedlicht/suedfrontkatmodul": {
             "type": "vcs",
             "url": "https://github.com/suedlicht/suedfrontkatmodul.git"
-        },
+        }
     },
   "authors": [
     {
