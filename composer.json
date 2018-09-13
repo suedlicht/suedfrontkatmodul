@@ -7,7 +7,7 @@
   "license": "GNU",
   "repositories": {
         "suedlicht/suedfrontkatmodul": {
-            "type": "vcs",
+            "type": "git",
             "url": "https://github.com/suedlicht/suedfrontkatmodul"
         }
     },
