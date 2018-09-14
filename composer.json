@@ -28,5 +28,8 @@
     "oxideshop": {
       "target-directory": "suedlicht/suedfrontkatmodul"
     }
-  }
+  },
+    "require": {
+        "suedlicht/suedfrontkatmodul": "dev-master"
+    }
 }
