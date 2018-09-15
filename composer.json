@@ -5,6 +5,7 @@
   "keywords": ["oxid","katmodul","admin"],
   "homepage": "https://suedlicht.com",
   "license": "GNU",
+  "version": "v1.3.0",
   "repositories": {
         "suedlicht/suedfrontkatmodul": {
             "type": "git",
