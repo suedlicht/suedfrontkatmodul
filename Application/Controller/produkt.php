@@ -1,5 +1,5 @@
 <?php
-
+ 
 class produktkat extends produktkat_parent 
 {
 
@@ -430,7 +430,7 @@ class produktkat extends produktkat_parent
 	public function katbilduper($aktpkatid)
 	{
 	//echo	$aktpkatid;
-		//kategorie Icon von übergeordneter kategorie wen vorhanden ausgeben
+		//kategorie Icon von Ã¼bergeordneter kategorie wen vorhanden ausgeben
 		$myConfig = $this->getConfig();
 		// Produktkategorien auslesen zur gliederung under den Motorradmodellen
 		//	echo $produkatf oxConfig::getParameter( 'produkatfilter' );
@@ -481,7 +481,7 @@ class produktkat extends produktkat_parent
 
 	public function SetSelKatType($mid)
 	{
-		//session für ausgewälte kategorie setzen
+		//session fÃ¼r ausgewÃ¤lte kategorie setzen
 	//	$aManuFilter = oxSession::getVar( 'session_manufilter' );
 		oxSession::setVar('session_kattype', $mid );
 	}
@@ -522,7 +522,7 @@ class produktkat extends produktkat_parent
 
 		return $aartikel;
 
-		//session für ausgewälte kategorie setzen
+		//session fÃ¼r ausgewÃ¤lte kategorie setzen
 	}
 
 	public function getKatStuPads()
